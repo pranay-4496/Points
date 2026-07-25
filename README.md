@@ -275,3 +275,4 @@ The UI will be available at:
 - **Transaction fee configuration**  
   The default `additionalFeeOverhead` value (`500_000_000_000_000_000n`) from `@midnight-ntwrk/testkit-js` is required on the `undeployed` network. Lower values can fail with `BalanceCheckOverspend` on the node side. On remote networks, that overhead requires too much dust, so the CLI overrides it to `1_000n`.
 - CLI private state is stored per contract address, matching the `Midnight.js 4.x` private-state provider model.
+# Points
